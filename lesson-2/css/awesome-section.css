@@ -39,11 +39,12 @@
 }
 .awesome-section__cards-container {
   display: flex;
+  flex-wrap: wrap;
 }
 .awesome-section__card {
   width: 350px;
 
-  margin: 31px 16px 74px 16px;
+  margin: 31px 15px 74px 15px;
 }
 .awesome-section__card-icon {
   width: 70px;
