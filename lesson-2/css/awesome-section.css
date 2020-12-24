@@ -40,9 +40,30 @@
 .awesome-section__cards-container {
 }
 .awesome-section__card {
+  margin: 32px;
 }
 .awesome-section__card-icon {
+  width: 70px;
+  height: 70px;
+
+  border: 1px solid #d98943;
+  border-radius: 50%;
+
+  margin: 0 auto 0 auto;
 }
+
+.awesome-section__card-icon_img_lightbulb {
+  background: url('../img/lightbulb.png') center center no-repeat;
+}
+
+.awesome-section__card-icon_img_keyboard {
+  background: url('../img/keyboard.png') center center no-repeat;
+}
+
+.awesome-section__card-icon_img_lightning {
+  background: url('../img/lightning.png') center center no-repeat;
+}
+
 .awesome-section__card-title {
 }
 .awesome-section__card-text {
