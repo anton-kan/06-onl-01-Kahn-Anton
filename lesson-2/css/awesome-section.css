@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-/* Block */
 .awesome-section {
   padding: 15px;
 }
 
-/* Elements */
 .awesome-section__title {
   margin: 85px auto 25px auto;
 
@@ -46,6 +44,7 @@
 .awesome-section__cards-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .awesome-section__card {
@@ -64,20 +63,13 @@
   border-radius: 50%;
 }
 
-/* Modifiers for the .awesome-section__card-icon element */
-.awesome-section__card-icon_img_lightbulb {
-  background: url('../img/lightbulb.png') center center no-repeat;
+.awesome-section__card-icon-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: calc(50% - 30px / 2);
 }
 
-.awesome-section__card-icon_img_keyboard {
-  background: url('../img/keyboard.png') center center no-repeat;
-}
-
-.awesome-section__card-icon_img_lightning {
-  background: url('../img/lightning.png') center center no-repeat;
-}
-
-/* More elements */
 .awesome-section__card-title {
   margin: 15px auto 16px auto;
 
