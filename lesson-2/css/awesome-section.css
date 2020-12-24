@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 .awesome-section {
+  padding: 15px;
 }
 .awesome-section__title {
-  margin: 100px auto 25px auto;
+  margin: 85px auto 25px auto;
 
   font-family: Raleway;
   font-style: normal;
@@ -16,6 +17,12 @@
   color: #212121;
 }
 .awesome-section__divider {
+  width: 64px;
+  height: 2px;
+
+  margin: 0 auto;
+
+  border: 1px solid #d98943;
 }
 .awesome-section__subtitle {
 }
