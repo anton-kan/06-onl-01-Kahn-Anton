@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+/* Block */
 .awesome-section {
   padding: 15px;
 }
+
+/* Elements */
 .awesome-section__title {
   margin: 85px auto 25px auto;
 
@@ -17,6 +20,7 @@
 
   color: #212121;
 }
+
 .awesome-section__divider {
   width: 64px;
   height: 2px;
@@ -25,6 +29,7 @@
 
   border: 1px solid #d98943;
 }
+
 .awesome-section__subtitle {
   margin: 30px auto 36px auto;
 
@@ -37,15 +42,18 @@
 
   color: #86878b;
 }
+
 .awesome-section__cards-container {
   display: flex;
   flex-wrap: wrap;
 }
+
 .awesome-section__card {
   width: 350px;
 
   margin: 31px 15px 74px 15px;
 }
+
 .awesome-section__card-icon {
   width: 70px;
   height: 70px;
@@ -56,6 +64,7 @@
   border-radius: 50%;
 }
 
+/* Modifiers for the .awesome-section__card-icon element */
 .awesome-section__card-icon_img_lightbulb {
   background: url('../img/lightbulb.png') center center no-repeat;
 }
@@ -68,6 +77,7 @@
   background: url('../img/lightning.png') center center no-repeat;
 }
 
+/* More elements */
 .awesome-section__card-title {
   margin: 15px auto 16px auto;
 
