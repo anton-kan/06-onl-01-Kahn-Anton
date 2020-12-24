@@ -38,18 +38,21 @@
   color: #86878b;
 }
 .awesome-section__cards-container {
+  display: flex;
 }
 .awesome-section__card {
-  margin: 32px;
+  width: 350px;
+
+  margin: 31px 16px 74px 16px;
 }
 .awesome-section__card-icon {
   width: 70px;
   height: 70px;
 
+  margin: 0 auto 15px auto;
+
   border: 1px solid #d98943;
   border-radius: 50%;
-
-  margin: 0 auto 0 auto;
 }
 
 .awesome-section__card-icon_img_lightbulb {
@@ -65,6 +68,29 @@
 }
 
 .awesome-section__card-title {
+  margin: 15px auto 16px auto;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+
+  text-align: center;
+
+  color: #333333;
 }
+
 .awesome-section__card-text {
+  margin-bottom: 20px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+
+  text-align: center;
+
+  color: #000000;
 }
