@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.awesome-section {
+}
+.awesome-section__title {
+  margin: 100px auto 25px auto;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+
+  text-transform: uppercase;
+  text-align: center;
+
+  color: #212121;
+}
+.awesome-section__divider {
+}
+.awesome-section__subtitle {
+}
+.awesome-section__cards-container {
+}
+.awesome-section__card {
+}
+.awesome-section__card-icon {
+}
+.awesome-section__card-title {
+}
+.awesome-section__card-text {
+}
