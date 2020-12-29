@@ -1,28 +1,27 @@
-.awesome-section {
-  padding: 15px;
+.awesome {
 }
 
-.awesome-section__title {
+.awesome__title {
   margin: 85px auto 25px auto;
 }
 
-.awesome-section__subtitle {
+.awesome__subtitle {
   margin: 30px auto 36px auto;
 }
 
-.awesome-section__cards-container {
+.awesome__cards-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.awesome-section__card {
+.awesome__card {
   width: 350px;
 
   margin: 31px 15px 74px 15px;
 }
 
-.awesome-section__card-icon {
+.awesome__card-icon {
   width: 70px;
   height: 70px;
 
@@ -36,11 +35,11 @@
   align-items: center;
 }
 
-.awesome-section__card-icon-img {
+.awesome__card-icon-img {
   display: block;
 }
 
-.awesome-section__card-title {
+.awesome__card-title {
   margin: 15px auto 16px auto;
 
   font-family: 'Open Sans';
@@ -54,7 +53,7 @@
   color: #333333;
 }
 
-.awesome-section__card-text {
+.awesome__card-text {
   margin-bottom: 20px;
 
   font-family: 'Open Sans';
