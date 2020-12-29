@@ -10,3 +10,26 @@
   max-width: 1170px;
   margin: 0 auto;
 }
+
+.title {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+
+  text-transform: uppercase;
+  text-align: center;
+
+  color: #212121;
+}
+
+.subtitle {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+
+  text-align: center;
+
+  color: #86878b;
+}

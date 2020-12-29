@@ -7,16 +7,6 @@
 
 .awesome-section__title {
   margin: 85px auto 25px auto;
-
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-
-  text-transform: uppercase;
-  text-align: center;
-
-  color: #212121;
 }
 
 .awesome-section__divider {
@@ -30,15 +20,6 @@
 
 .awesome-section__subtitle {
   margin: 30px auto 36px auto;
-
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-
-  text-align: center;
-
-  color: #86878b;
 }
 
 .awesome-section__cards-container {
