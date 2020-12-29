@@ -11,12 +11,90 @@
 }
 
 .pricing__plans-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
+
 .pricing__plan {
+  width: 340px;
+
+  text-align: center;
 }
+
+.pricing__plan-title {
+  margin-bottom: 1px;
+  padding-top: 15px;
+  padding-bottom: 8px;
+
+  background: #333333;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #ffffff;
+}
+
+.pricing__plan-price {
+  margin-bottom: 2px;
+  padding-top: 26px;
+  padding-bottom: 33px;
+
+  background: #333333;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 41px;
+
+  color: #ffffff;
+}
+
+.pricing__plan-subtitle {
+  margin-bottom: 4px;
+  padding-top: 17px;
+  padding-bottom: 14px;
+
+  background: #333333;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.pricing__plan-subtitle_highlighted {
+  background: #d98943;
+  font-weight: 800;
+}
+
 .pricing__plan-item {
+  margin-bottom: 4px;
+  padding-top: 10px;
+  padding-bottom: 11px;
+
+  background: #ffffff;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+
+  text-align: center;
+
+  color: #86878b;
 }
+
 .pricing__currency {
 }
+
 .pricing__price {
 }
