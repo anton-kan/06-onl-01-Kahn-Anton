@@ -9,15 +9,6 @@
   margin: 85px auto 25px auto;
 }
 
-.awesome-section__divider {
-  width: 64px;
-  height: 2px;
-
-  margin: 0 auto;
-
-  border: 1px solid #d98943;
-}
-
 .awesome-section__subtitle {
   margin: 30px auto 36px auto;
 }
