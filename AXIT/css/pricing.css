@@ -6,6 +6,11 @@
 
 .pricing__title {
   margin: 65px auto 34px auto;
+  color: #212121;
+}
+
+.pricing__title::after {
+  border-color: #d98943;
 }
 
 .pricing__subtitle {

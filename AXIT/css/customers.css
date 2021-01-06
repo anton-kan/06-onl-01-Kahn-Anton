@@ -1,12 +1,20 @@
 .customers {
   padding: 15px 0;
 }
+
 .customers__title {
   margin: 65px auto 34px auto;
+  color: #212121;
 }
+
+.customers__title::after {
+  border-color: #d98943;
+}
+
 .customers__subtitle {
   margin: 34px auto 67px auto;
 }
+
 .customers__cards-container {
   display: flex;
   flex-wrap: wrap;
@@ -15,11 +23,13 @@
   padding-bottom: 20px;
   margin-bottom: 40px;
 }
+
 .customers__card {
   width: 300px;
   margin-bottom: 45px;
   padding: 1px;
 }
+
 .customers__card-testimonial {
   background: #e2e2e2;
   border-radius: 7px;
@@ -51,14 +61,17 @@
   position: absolute;
   left: 39px;
 }
+
 .customers__card-customerinfo {
   display: flex;
 }
+
 .customers__card-photo {
   margin: 0 45px 0 45px;
   width: 70px;
   height: 70px;
 }
+
 .customers__card-name {
   font-family: 'Open Sans';
   font-style: normal;
@@ -71,6 +84,7 @@
 
   margin: 8px 0 12px 0;
 }
+
 .customers__card-position {
   font-family: 'Open Sans';
   font-style: normal;
