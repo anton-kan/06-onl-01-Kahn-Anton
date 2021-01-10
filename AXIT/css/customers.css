@@ -55,11 +55,16 @@
 
   width: 17px;
   height: 17px;
-  background: #e2e2e2;
-  transform: rotate(-45deg);
+  background-color: transparent;
+
+  border-top: 12px solid #e2e2e2;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 12px solid transparent;
 
   position: absolute;
   left: 39px;
+  top: 100%;
 }
 
 .customers__card-customerinfo {
