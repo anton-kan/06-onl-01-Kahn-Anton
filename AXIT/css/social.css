@@ -10,6 +10,8 @@
 .social-description {
   width: 365px;
   margin: 0 15px;
+
+  flex-shrink: 1000000;
 }
 .social-description__title {
   font-family: 'Open Sans';
@@ -34,6 +36,8 @@
   color: #86878b;
 }
 .social-icons {
+  flex-shrink: 1;
+
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
