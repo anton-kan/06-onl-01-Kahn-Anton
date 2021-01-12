@@ -1,7 +1,6 @@
 .footer {
   padding: 15px 0;
   background: #000000;
-  color: rgba(255, 255, 255, 0.5);
 }
 
 .footer-social {
@@ -18,6 +17,8 @@
   font-size: 12px;
   line-height: 16px;
   text-align: center;
+
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .footer-social__item {
@@ -27,7 +28,7 @@
 .footer-social__icon,
 .footer-social__icon:visited,
 .footer-social__icon:active {
-  color: inherit;
+  color: #cccccc;
 }
 
 .footer-social__icon:hover {
