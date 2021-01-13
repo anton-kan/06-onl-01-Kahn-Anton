@@ -20,6 +20,8 @@
   flex-wrap: wrap;
   justify-content: space-around;
 
+  align-items: stretch;
+
   padding-bottom: 20px;
   margin-bottom: 40px;
 }
@@ -28,9 +30,14 @@
   width: 300px;
   margin-bottom: 45px;
   padding: 1px;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .customers__card-testimonial {
+  flex-grow: 1;
+
   background: #e2e2e2;
   border-radius: 7px;
 
