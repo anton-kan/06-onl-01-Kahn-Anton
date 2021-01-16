@@ -15,7 +15,7 @@
 
   color: #ffffff;
 
-  margin: 20px 0 19px 0;
+  margin: 20px 48px 19px 0;
 }
 .header-logo__highlighted {
   color: #ec7979;
@@ -25,6 +25,7 @@
 .header-navigation__menu {
   display: flex;
   align-items: space-between;
+  flex-wrap: wrap;
 
   font-family: 'Open Sans';
   font-style: normal;
