@@ -5,11 +5,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 -15px;
 }
 .social-description {
   width: 365px;
-  margin: 0 15px;
 
   flex-shrink: 1000000;
 }
@@ -41,9 +39,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 15px auto 18px auto;
+  margin: 15px -32px 18px -32px;
   font-size: 42px;
-  margin: 0 -15px 0 15px;
 }
 .social-icons__item {
   margin: 0 32px 0 32px;

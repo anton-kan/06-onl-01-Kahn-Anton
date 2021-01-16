@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
 
+@import url('header.css');
 @import url('social.css');
 @import url('awesome.css');
 @import url('pricing.css');
@@ -18,8 +19,11 @@
   list-style-type: none;
 }
 
-a {
+a,
+a:visited,
+a:active {
   text-decoration: none;
+  color: inherit;
 }
 
 .container {
