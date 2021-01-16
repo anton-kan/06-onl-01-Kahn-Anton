@@ -12,15 +12,15 @@
 }
 
 .awesome__cards-container {
+  margin: 0 -22.5px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .awesome__card {
   width: 350px;
-
-  margin: 31px 15px 89px 15px;
+  margin: 31px 22.5px 89px 22.5px;
 }
 
 .awesome__card-icon {

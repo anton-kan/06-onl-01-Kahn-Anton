@@ -22,12 +22,14 @@
   flex-wrap: wrap;
   justify-content: space-around;
 
+  margin: 0 -30px;
+
   padding-bottom: 20px;
 }
 
 .pricing__plan {
   width: 340px;
-  margin-bottom: 45px;
+  margin: 0 30px 45px 30px;
 
   text-align: center;
 }

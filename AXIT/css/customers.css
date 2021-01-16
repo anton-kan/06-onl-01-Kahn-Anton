@@ -23,12 +23,13 @@
   align-items: stretch;
 
   padding-bottom: 20px;
-  margin-bottom: 40px;
+
+  margin: 0 -60px 40px -60px;
 }
 
 .customers__card {
   width: 300px;
-  margin-bottom: 45px;
+  margin: 0 60px 45px 60px;
   padding: 1px;
 
   display: flex;
