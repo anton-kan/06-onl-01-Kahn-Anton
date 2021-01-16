@@ -59,7 +59,27 @@
 }
 
 .social-icons__icon:hover {
-  color: #ffffff;
-
   transform: scale(1.3, 1.3);
+}
+
+.fa-facebook-f:hover {
+  color: #4267b2;
+}
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+.fa-google-plus-g:hover {
+  color: #d34836;
+}
+.fa-pinterest:hover {
+  color: #bd081c;
+}
+.fa-instagram:hover {
+  color: #c13584;
+}
+.fa-stumbleupon:hover {
+  color: #eb471d;
+}
+.fa-rss:hover {
+  color: #f26522;
 }
