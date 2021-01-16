@@ -5,10 +5,12 @@
 .customers__title {
   margin: 65px auto 34px auto;
   color: #212121;
+  text-align: center;
 }
 
 .customers__title::after {
   border-color: #d98943;
+  margin: 34px auto 0 auto;
 }
 
 .customers__subtitle {

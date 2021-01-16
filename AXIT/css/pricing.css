@@ -7,10 +7,12 @@
 .pricing__title {
   margin: 65px auto 34px auto;
   color: #212121;
+  text-align: center;
 }
 
 .pricing__title::after {
   border-color: #d98943;
+  margin: 34px auto 0 auto;
 }
 
 .pricing__subtitle {

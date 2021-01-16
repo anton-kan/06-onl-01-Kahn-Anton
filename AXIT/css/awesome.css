@@ -1,9 +1,12 @@
 .awesome__title {
   margin: 85px auto 25px auto;
   color: #212121;
+  text-align: center;
 }
 
 .awesome__title::after {
+  margin: 34px auto 0 auto;
+
   border-color: #d98943;
 }
 

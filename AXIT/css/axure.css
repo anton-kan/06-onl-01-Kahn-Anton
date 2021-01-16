@@ -25,10 +25,12 @@
 .axure__title {
   margin: 43px auto 34px auto;
   color: #ffffff;
+  text-align: center;
 }
 
 .axure__title::after {
   border-color: #ffffff;
+  margin: 34px auto 0 auto;
 }
 
 .axure__subtitle {
@@ -44,22 +46,5 @@
 }
 
 .axure__button {
-  display: block;
-  border: 1px solid #ffffff;
-  padding: 11px 26px;
   margin: 57px auto 23px auto;
-  width: 135px;
-
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
-  text-align: center;
-
-  color: #ffffff;
-}
-
-.axure__button:hover {
-  background-color: rgba(255, 255, 255, 0.55);
 }

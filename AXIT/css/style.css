@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
 
 @import url('navigation.css');
+@import url('header.css');
 @import url('social.css');
 @import url('awesome.css');
 @import url('pricing.css');
@@ -19,11 +21,8 @@
   list-style-type: none;
 }
 
-a,
-a:visited,
-a:active {
+a {
   text-decoration: none;
-  color: inherit;
 }
 
 .container {
@@ -37,9 +36,9 @@ a:active {
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
+  line-height: 42px;
 
   text-transform: uppercase;
-  text-align: center;
 }
 
 .title::after {
@@ -48,8 +47,6 @@ a:active {
 
   width: 64px;
   height: 0px;
-
-  margin: 34px auto 0 auto;
 
   border-width: 1px;
   border-style: solid;
@@ -64,4 +61,24 @@ a:active {
   text-align: center;
 
   color: #86878b;
+}
+
+.download-button {
+  display: block;
+  border: 1px solid #ffffff;
+  padding: 11px 26px;
+  width: 135px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.download-button:hover {
+  background-color: rgba(255, 255, 255, 0.55);
 }

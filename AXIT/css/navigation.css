@@ -1,11 +1,13 @@
 .navigation {
   background: #000000;
 }
+
 .navigation-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .navigation-logo {
   font-family: 'Raleway';
   font-style: normal;
@@ -17,9 +19,11 @@
 
   margin: 20px 48px 19px 0;
 }
+
 .navigation-logo__highlighted {
   color: #ec7979;
 }
+
 .navigation__menu {
   display: flex;
   align-items: space-between;
@@ -32,12 +36,15 @@
   line-height: 20px;
   text-transform: capitalize;
 
-  color: rgba(255, 255, 255, 0.7);
-
   margin: 25px -48px 25px -48px;
 }
+
 .navigation__menu-item {
   margin: 0 48px 0 48px;
+}
+
+.navigation__link {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .navigation__link:hover {
