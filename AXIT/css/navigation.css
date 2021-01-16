@@ -1,12 +1,12 @@
-.header {
+.navigation {
   background: #000000;
 }
-.header-container {
+.navigation-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.header-logo {
+.navigation-logo {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: normal;
@@ -17,12 +17,10 @@
 
   margin: 20px 48px 19px 0;
 }
-.header-logo__highlighted {
+.navigation-logo__highlighted {
   color: #ec7979;
 }
-.header-navigation {
-}
-.header-navigation__menu {
+.navigation__menu {
   display: flex;
   align-items: space-between;
   flex-wrap: wrap;
@@ -38,10 +36,10 @@
 
   margin: 25px -48px 25px -48px;
 }
-.header-navigation__menu-item {
+.navigation__menu-item {
   margin: 0 48px 0 48px;
 }
 
-.header-navigation__link:hover {
+.navigation__link:hover {
   color: #ffffff;
 }
