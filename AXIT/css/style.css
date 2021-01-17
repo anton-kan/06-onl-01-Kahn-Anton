@@ -6,6 +6,7 @@
 @import url('navigation.css');
 @import url('header.css');
 @import url('social.css');
+@import url('features.css');
 @import url('awesome.css');
 @import url('pricing.css');
 @import url('customers.css');
@@ -64,29 +65,8 @@ a {
   color: #86878b;
 }
 
-.download-button {
+.button {
   display: block;
-  border: 1px solid #ffffff;
-  padding: 11px 26px;
-  width: 135px;
-
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
-  text-align: center;
-
-  color: #ffffff;
-}
-
-.download-button:hover {
-  background-color: rgba(255, 255, 255, 0.55);
-}
-
-.form-button {
-  display: block;
-
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
@@ -96,12 +76,25 @@ a {
   text-transform: capitalize;
 
   color: #ffffff;
+}
+
+.button_color_transparent {
+  border: 1px solid #ffffff;
+  padding: 11px 26px;
+  width: 135px;
+}
+
+.button_color_transparent:hover {
+  background-color: rgba(255, 255, 255, 0.55);
+}
+
+.button_color_pink {
   background-color: #ec7979;
 
   border: none;
 }
 
-.form-button:hover {
+.button_color_pink:hover {
   cursor: pointer;
   background-color: rgba(236, 121, 121, 0.8);
 }
