@@ -27,7 +27,7 @@
 }
 
 .header__text {
-  margin: 109px 48px 101px 0;
+  margin: 109px 22px 101px 0;
   width: 544px;
 }
 
@@ -79,7 +79,7 @@
   width: 370px;
   overflow: hidden;
 
-  margin: 110px 0 120px 48px;
+  margin: 110px 0 120px 22px;
 }
 
 .header-form__container {
@@ -132,18 +132,6 @@
 }
 
 .header-form__button {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
-  text-align: center;
-  text-transform: capitalize;
-
-  color: #ffffff;
-  background-color: #ec7979;
-
   width: 100%;
   padding: 16px 0 17px 0;
-  border: none;
 }

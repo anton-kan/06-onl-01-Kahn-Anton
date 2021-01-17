@@ -10,6 +10,7 @@
 @import url('pricing.css');
 @import url('customers.css');
 @import url('axure.css');
+@import url('contact.css');
 @import url('footer.css');
 
 *,
@@ -81,4 +82,26 @@ a {
 
 .download-button:hover {
   background-color: rgba(255, 255, 255, 0.55);
+}
+
+.form-button {
+  display: block;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+  background-color: #ec7979;
+
+  border: none;
+}
+
+.form-button:hover {
+  cursor: pointer;
+  background-color: rgba(236, 121, 121, 0.8);
 }
