@@ -107,12 +107,6 @@
   padding: 11px;
 }
 
-.features__image-container {
-}
-
-.features__image {
-}
-
 .features__image_rotate_90 {
   transform: rotate(90deg);
 }
