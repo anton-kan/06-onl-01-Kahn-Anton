@@ -23,18 +23,20 @@
 
 .contact-form__container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   align-items: stretch;
-  margin: 0 -22px 0 -22px;
+  margin: 0 -15px;
 }
 
 .contact-form__block {
+  flex: 1 1 300px;
+  max-width: 478px;
+
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  flex-basis: 478px;
-  margin: 0 22px 69px 22px;
+  margin: 0 15px;
 }
 
 .contact-form__label {
@@ -56,6 +58,7 @@
   border-right: none;
 
   margin: 16px 0 0 0;
+  padding: 2px;
 
   width: 100%;
 }
@@ -67,5 +70,5 @@
 .contact-form__button {
   width: 166px;
   padding: 11px;
-  margin: 0 auto 0 auto;
+  margin: 69px auto 0 auto;
 }

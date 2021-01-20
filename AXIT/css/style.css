@@ -3,8 +3,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
 
-@import url('navigation.css');
 @import url('header.css');
+@import url('navigation.css');
+@import url('intro.css');
 @import url('social.css');
 @import url('features.css');
 @import url('awesome.css');
@@ -27,7 +28,17 @@ a {
   text-decoration: none;
 }
 
+input,
+textarea {
+  outline: none;
+}
+
+.wrapper {
+  min-height: 100vh;
+}
+
 .container {
+  flex-grow: 1;
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 15px;

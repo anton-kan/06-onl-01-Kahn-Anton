@@ -7,319 +7,335 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <nav class="navigation">
-      <div class="container navigation-container">
-        <div class="navigation-logo">AX<span class="navigation-logo__highlighted">IT</span></div>
-        <ul class="navigation__menu">
-          <li class="navigation__menu-item"><a href="#" class="navigation__link">Features</a></li>
-          <li class="navigation__menu-item"><a href="#" class="navigation__link">About</a></li>
-          <li class="navigation__menu-item"><a href="#" class="navigation__link">Pricing</a></li>
-          <li class="navigation__menu-item"><a href="#" class="navigation__link">Reviews</a></li>
-          <li class="navigation__menu-item"><a href="#" class="navigation__link">Contact</a></li>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="navigation">
+          <div class="container">
+            <div class="navigation-container">
+              <div class="navigation-logo">AX<span class="navigation-logo__highlighted">IT</span></div>
+              <ul class="navigation__menu">
+                <li class="navigation__menu-item"><a href="#" class="navigation__link">Features</a></li>
+                <li class="navigation__menu-item"><a href="#" class="navigation__link">About</a></li>
+                <li class="navigation__menu-item"><a href="#" class="navigation__link">Pricing</a></li>
+                <li class="navigation__menu-item"><a href="#" class="navigation__link">Reviews</a></li>
+                <li class="navigation__menu-item"><a href="#" class="navigation__link">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <section class="intro">
+          <div class="container">
+            <div class="intro-container">
+              <div class="intro__text">
+                <div class="intro-logo">AX<span class="intro-logo__highlighted">IT</span></div>
+                <h1 class="intro__title title">Modern Axure template for beautiful prototypes</h1>
+                <h3 class="intro__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean</h3>
+                <a href="#" class="button button_color_transparent intro__text-button">Download</a>
+              </div>
+              <form action="#" method="POST" class="intro-form">
+                <div class="intro-form__container">
+                  <h4 class="intro-form__title">
+                    Try your <span class="intro-form__title-highlighted"> free </span> trial today
+                  </h4>
+                  <label for="intro.form.name" class="intro-form__label">Name</label>
+                  <input type="text" id="intro.form.name" class="intro-form__input" />
+                  <label for="intro.form.email" class="intro-form__label">Email</label>
+                  <input type="email" id="intro.form.email" class="intro-form__input" />
+                  <label for="intro.form.password" class="intro-form__label">Password</label>
+                  <input type="password" id="intro.form.password" class="intro-form__input" />
+                </div>
+                <button class="button button_color_pink intro-form__button" type="Submit">Get started</button>
+              </form>
+            </div>
+          </div>
+        </section>
+        <section class="social">
+          <div class="container">
+            <div class="social-container">
+              <div class="social-description">
+                <h2 class="social-description__title">Social Media</h2>
+                <p class="social-description__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+                </p>
+              </div>
+              <ul class="social-icons">
+                <li class="social-icons__item"><a href="#" class="social-icons__icon fab fa-facebook-f"></a></li>
+                <li class="social-icons__item"><a href="#" class="social-icons__icon fab fa-twitter"></a></li>
+                <li class="social-icons__item"><a href="#" class="social-icons__icon fab fa-google-plus-g"></a></li>
+                <li class="social-icons__item"><a href="#" class="social-icons__icon fab fa-pinterest"></a></li>
+                <li class="social-icons__item"><a href="#" class="social-icons__icon fab fa-instagram"></a></li>
+                <li class="social-icons__item"><a href="#" class="social-icons__icon fab fa-stumbleupon"></a></li>
+                <li class="social-icons__item"><a href="#" class="social-icons__icon fas fa-rss"></a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </header>
+      <main>
+        <section class="features">
+          <div class="container">
+            <div class="features-container">
+              <ul class="features__tabs">
+                <li class="features__tabs-item">
+                  <input
+                    type="radio"
+                    name="features__radio"
+                    id="features.tab1.radio"
+                    class="features__tab-radio"
+                    checked
+                  />
+                  <label for="features.tab1.radio" class="features__tab">Tab 1</label>
+                  <div class="features__tab-content">
+                    <div class="features__content">
+                      <h2 class="features__title">Tabs with soft transitioning effect.</h2>
+                      <div class="features__text">
+                        <p class="features__paragraph">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+                          Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar
+                          tempor. Cum sociis natoque penatibus et magnis dis parturient montes.
+                        </p>
+                        <p class="features__paragraph">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+                        </p>
+                      </div>
+                      <a href="#" class="button button_color_pink features_button">Download</a>
+                    </div>
+                    <div class="features__image-container">
+                      <img
+                        src="img/illustrations/city_skyline.png"
+                        alt="City skyline with scyscrapers"
+                        class="features__image"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li class="features__tabs-item">
+                  <input type="radio" name="features__radio" id="features.tab2.radio" class="features__tab-radio" />
+                  <label for="features.tab2.radio" class="features__tab">Tab 2</label>
+                  <div class="features__tab-content">
+                    <div class="features__content">
+                      <h2 class="features__title">This is tab 2</h2>
+                      <div class="features__text">
+                        <p class="features__paragraph">Tab 2 content</p>
+                      </div>
+                      <a href="#" class="button button_color_pink features_button">Download</a>
+                    </div>
+                    <div class="features__image-container">
+                      <img
+                        src="img/illustrations/city_skyline.png"
+                        alt="City skyline with scyscrapers"
+                        class="features__image features__image_rotate_90"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li class="features__tabs-item">
+                  <input type="radio" name="features__radio" id="features.tab3.radio" class="features__tab-radio" />
+                  <label for="features.tab3.radio" class="features__tab">Tab 3</label>
+                  <div class="features__tab-content">
+                    <div class="features__content">
+                      <h2 class="features__title">This is tab 3</h2>
+                      <div class="features__text">
+                        <p class="features__paragraph">Tab 3 content</p>
+                      </div>
+                      <a href="#" class="button button_color_pink features_button">Download</a>
+                    </div>
+                    <div class="features__image-container">
+                      <img
+                        src="img/illustrations/city_skyline.png"
+                        alt="City skyline with scyscrapers"
+                        class="features__image features__image_rotate_180"
+                      />
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="awesome">
+          <div class="container">
+            <h2 class="awesome__title title">Why this is awesome</h2>
+            <h3 class="awesome__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+            <div class="awesome__cards-container">
+              <div class="awesome__card">
+                <div class="awesome__card-icon">
+                  <img src="img/icons/lightbulb.png" alt="Electric lightbulub" class="awesome__card-icon-img" />
+                </div>
+                <h4 class="awesome__card-title">Thoughtful Design</h4>
+                <p class="awesome__card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin
+                  gravida dolor sit amet lacus accumsan et viverra.
+                </p>
+              </div>
+              <div class="awesome__card">
+                <div class="awesome__card-icon">
+                  <img src="img/icons/keyboard.png" alt="Computer keyboard" class="awesome__card-icon-img" />
+                </div>
+                <h4 class="awesome__card-title">Well Crafted</h4>
+                <p class="awesome__card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin
+                  gravida dolor sit amet lacus accumsan et viverra.
+                </p>
+              </div>
+              <div class="awesome__card">
+                <div class="awesome__card-icon">
+                  <img src="img/icons/lightning.png" alt="Lightning bolt" class="awesome__card-icon-img" />
+                </div>
+                <h4 class="awesome__card-title">Easy to Customize</h4>
+                <p class="awesome__card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin
+                  gravida dolor sit amet lacus accumsan et viverra.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="pricing">
+          <div class="container">
+            <h2 class="pricing__title title">Pricing options</h2>
+            <h3 class="pricing__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+            <div class="pricing__plans-container">
+              <ul class="pricing__plan">
+                <li class="pricing__plan-title">Basic</li>
+                <li class="pricing__plan-price">
+                  <span class="pricing__currency">$</span><span class="pricing__price">10</span>
+                </li>
+                <li class="pricing__plan-subtitle">Free for life</li>
+                <li class="pricing__plan-item">1 gb of space</li>
+                <li class="pricing__plan-item">1 gb of space</li>
+                <li class="pricing__plan-item">1 gb of space</li>
+                <li class="pricing__plan-item">1 gb of space</li>
+                <li class="pricing__plan-item">1 gb of space</li>
+                <li class="pricing__plan-item">1 gb of space</li>
+              </ul>
+              <ul class="pricing__plan">
+                <li class="pricing__plan-title">Optima</li>
+                <li class="pricing__plan-price">
+                  <span class="pricing__currency">$</span><span class="pricing__price">20</span>
+                </li>
+                <li class="pricing__plan-subtitle pricing__plan-subtitle_highlighted">Free for life</li>
+                <li class="pricing__plan-item">1 gb of space</li>
+                <li class="pricing__plan-item">1 gb of space</li>
+                <li class="pricing__plan-item">1 gb of space</li>
+                <li class="pricing__plan-item">1 gb of space</li>
+                <li class="pricing__plan-item">1 gb of space</li>
+                <li class="pricing__plan-item">1 gb of space</li>
+              </ul>
+              <ul class="pricing__plan">
+                <li class="pricing__plan-title">Pro</li>
+                <li class="pricing__plan-price">
+                  <span class="pricing__currency">$</span><span class="pricing__price">30</span>
+                </li>
+                <li class="pricing__plan-subtitle">Free for life</li>
+                <li class="pricing__plan-item">1 gb of space</li>
+                <li class="pricing__plan-item">1 gb of space</li>
+                <li class="pricing__plan-item">1 gb of space</li>
+                <li class="pricing__plan-item">1 gb of space</li>
+                <li class="pricing__plan-item">1 gb of space</li>
+                <li class="pricing__plan-item">1 gb of space</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="customers">
+          <div class="container">
+            <h2 class="customers__title title">what our customers are saying</h2>
+            <h3 class="customers__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+            <div class="customers__cards-container">
+              <div class="customers__card">
+                <p class="customers__card-testimonial">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aut molestias odit reprehenderit.
+                  Aliquam, earum quo! Corporis autem iste tenetur consequatur atque odio, dolorum vitae quod deleniti
+                  illum praesentium blanditiis.
+                </p>
+                <div class="customers__card-customerinfo">
+                  <img src="img/photos/jeremy_h.png" alt="Jeremy H. photo" class="customers__card-photo" />
+                  <div class="customers__card-credentials">
+                    <h4 class="customers__card-name">Jeremy H.</h4>
+                    <h5 class="customers__card-position">Manager</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="customers__card">
+                <p class="customers__card-testimonial">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat
+                  similique odio aspernatur ex, architecto eaque quo suscipit.
+                </p>
+                <div class="customers__card-customerinfo">
+                  <img src="img/photos/jeremy_h.png" alt="Jeremy H. photo" class="customers__card-photo" />
+                  <div class="customers__card-credentials">
+                    <h4 class="customers__card-name">Jeremy H.</h4>
+                    <h5 class="customers__card-position">Manager</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="customers__card">
+                <p class="customers__card-testimonial">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, velit.
+                </p>
+                <div class="customers__card-customerinfo">
+                  <img src="img/photos/jeremy_h.png" alt="Jeremy H. photo" class="customers__card-photo" />
+                  <div class="customers__card-credentials">
+                    <h4 class="customers__card-name">Jeremy H.</h4>
+                    <h5 class="customers__card-position">Manager</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="axure">
+          <div class="container axure__container">
+            <div class="axure__container">
+              <h2 class="axure__title title">Stylish Axure design</h2>
+              <h3 class="axure__subtitle">
+                Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than ever!
+              </h3>
+              <a href="#" class="button button_color_transparent axure__button">Download</a>
+            </div>
+          </div>
+        </section>
+        <section class="contact">
+          <div class="container">
+            <h2 class="contact__title title">Contact us</h2>
+            <h3 class="contact__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+            <form action="#" method="POST" class="contact-form">
+              <div class="contact-form__container">
+                <div class="contact-form__block">
+                  <label for="contact.form.name" class="contact-form__label">Name</label>
+                  <input type="text" id="contact.form.name" class="contact-form__input" />
+                  <label for="contact.form.email" class="contact-form__label">Email</label>
+                  <input type="email" id="contact.form.email" class="contact-form__input" />
+                  <label for="contact.form.password" class="contact-form__label">Password</label>
+                  <input type="password" id="contact.form.password" class="contact-form__input" />
+                </div>
+                <div class="contact-form__block">
+                  <label for="contact.form.message" class="contact-form__label">Message</label>
+                  <textarea
+                    id="contact.form.message"
+                    class="contact-form__input contact-form__input_growing"
+                    rows="11"
+                  ></textarea>
+                </div>
+              </div>
+              <button class="button button_color_pink contact-form__button" type="submit">Send message</button>
+            </form>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <ul class="footer-social">
+          <li class="footer-social__item"><a href="#" class="footer-social__icon fab fa-facebook-f"></a></li>
+          <li class="footer-social__item"><a href="#" class="footer-social__icon fab fa-twitter"></a></li>
+          <li class="footer-social__item"><a href="#" class="footer-social__icon fab fa-google-plus-g"></a></li>
+          <li class="footer-social__item"><a href="#" class="footer-social__icon fab fa-pinterest"></a></li>
+          <li class="footer-social__item"><a href="#" class="footer-social__icon fab fa-instagram"></a></li>
+          <li class="footer-social__item"><a href="#" class="footer-social__icon fab fa-stumbleupon"></a></li>
+          <li class="footer-social__item"><a href="#" class="footer-social__icon fas fa-rss"></a></li>
         </ul>
-      </div>
-    </nav>
-    <header class="header">
-      <div class="container header-container">
-        <div class="header__text">
-          <div class="header-logo">AX<span class="header-logo__highlighted">IT</span></div>
-          <h1 class="header__title title">Modern Axure template for beautiful prototypes</h1>
-          <h3 class="header__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean</h3>
-          <a href="#" class="button button_color_transparent header__text-button">Download</a>
-        </div>
-        <form action="#" method="POST" class="header-form">
-          <div class="header-form__container">
-            <h4 class="header-form__title">
-              Try your <span class="header-form__title-highlighted"> free </span> trial today
-            </h4>
-            <label for="header.form.name" class="header-form__label">Name</label>
-            <input type="text" id="header.form.name" class="header-form__input" />
-            <label for="header.form.email" class="header-form__label">Email</label>
-            <input type="email" id="header.form.email" class="header-form__input" />
-            <label for="header.form.password" class="header-form__label">Password</label>
-            <input type="password" id="header.form.password" class="header-form__input" />
-          </div>
-          <button class="button button_color_pink header-form__button" type="Submit">Get started</button>
-        </form>
-      </div>
-    </header>
-    <main>
-      <section class="social">
-        <div class="container social-container">
-          <div class="social-description">
-            <h2 class="social-description__title">Social Media</h2>
-            <p class="social-description__text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
-            </p>
-          </div>
-          <ul class="social-icons">
-            <li class="social-icons__item"><a href="#" class="social-icons__icon fab fa-facebook-f"></a></li>
-            <li class="social-icons__item"><a href="#" class="social-icons__icon fab fa-twitter"></a></li>
-            <li class="social-icons__item"><a href="#" class="social-icons__icon fab fa-google-plus-g"></a></li>
-            <li class="social-icons__item"><a href="#" class="social-icons__icon fab fa-pinterest"></a></li>
-            <li class="social-icons__item"><a href="#" class="social-icons__icon fab fa-instagram"></a></li>
-            <li class="social-icons__item"><a href="#" class="social-icons__icon fab fa-stumbleupon"></a></li>
-            <li class="social-icons__item"><a href="#" class="social-icons__icon fas fa-rss"></a></li>
-          </ul>
-        </div>
-      </section>
-      <section class="features">
-        <div class="container">
-          <div class="features-container">
-            <ul class="features__tabs">
-              <li class="features__tabs-item">
-                <input
-                  type="radio"
-                  name="features__radio"
-                  id="features.tab1.radio"
-                  class="features__tab-radio"
-                  checked
-                />
-                <label for="features.tab1.radio" class="features__tab">Tab 1</label>
-                <div class="features__tab-content">
-                  <div class="features__content">
-                    <h2 class="features__title">Tabs with soft transitioning effect.</h2>
-                    <div class="features__text">
-                      <p class="features__paragraph">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin
-                        gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.
-                        Cum sociis natoque penatibus et magnis dis parturient montes.
-                      </p>
-                      <p class="features__paragraph">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
-                      </p>
-                    </div>
-                    <a href="#" class="button button_color_pink features_button">Download</a>
-                  </div>
-                  <div class="features__image-container">
-                    <img
-                      src="img/illustrations/city_skyline.png"
-                      alt="City skyline with scyscrapers"
-                      class="features__image"
-                    />
-                  </div>
-                </div>
-              </li>
-              <li class="features__tabs-item">
-                <input type="radio" name="features__radio" id="features.tab2.radio" class="features__tab-radio" />
-                <label for="features.tab2.radio" class="features__tab">Tab 2</label>
-                <div class="features__tab-content">
-                  <div class="features__content">
-                    <h2 class="features__title">This is tab 2</h2>
-                    <div class="features__text">
-                      <p class="features__paragraph">Tab 2 content</p>
-                    </div>
-                    <a href="#" class="button button_color_pink features_button">Download</a>
-                  </div>
-                  <div class="features__image-container">
-                    <img
-                      src="img/illustrations/city_skyline.png"
-                      alt="City skyline with scyscrapers"
-                      class="features__image features__image_rotate_90"
-                    />
-                  </div>
-                </div>
-              </li>
-              <li class="features__tabs-item">
-                <input type="radio" name="features__radio" id="features.tab3.radio" class="features__tab-radio" />
-                <label for="features.tab3.radio" class="features__tab">Tab 3</label>
-                <div class="features__tab-content">
-                  <div class="features__content">
-                    <h2 class="features__title">This is tab 3</h2>
-                    <div class="features__text">
-                      <p class="features__paragraph">Tab 3 content</p>
-                    </div>
-                    <a href="#" class="button button_color_pink features_button">Download</a>
-                  </div>
-                  <div class="features__image-container">
-                    <img
-                      src="img/illustrations/city_skyline.png"
-                      alt="City skyline with scyscrapers"
-                      class="features__image features__image_rotate_180"
-                    />
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <section class="awesome">
-        <div class="container">
-          <h2 class="awesome__title title">Why this is awesome</h2>
-          <h3 class="awesome__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
-          <div class="awesome__cards-container">
-            <div class="awesome__card">
-              <div class="awesome__card-icon">
-                <img src="img/icons/lightbulb.png" alt="Electric lightbulub" class="awesome__card-icon-img" />
-              </div>
-              <h4 class="awesome__card-title">Thoughtful Design</h4>
-              <p class="awesome__card-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida
-                dolor sit amet lacus accumsan et viverra.
-              </p>
-            </div>
-            <div class="awesome__card">
-              <div class="awesome__card-icon">
-                <img src="img/icons/keyboard.png" alt="Computer keyboard" class="awesome__card-icon-img" />
-              </div>
-              <h4 class="awesome__card-title">Well Crafted</h4>
-              <p class="awesome__card-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida
-                dolor sit amet lacus accumsan et viverra.
-              </p>
-            </div>
-            <div class="awesome__card">
-              <div class="awesome__card-icon">
-                <img src="img/icons/lightning.png" alt="Lightning bolt" class="awesome__card-icon-img" />
-              </div>
-              <h4 class="awesome__card-title">Easy to Customize</h4>
-              <p class="awesome__card-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida
-                dolor sit amet lacus accumsan et viverra.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="pricing">
-        <div class="container">
-          <h2 class="pricing__title title">Pricing options</h2>
-          <h3 class="pricing__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-          <div class="pricing__plans-container">
-            <ul class="pricing__plan">
-              <li class="pricing__plan-title">Basic</li>
-              <li class="pricing__plan-price">
-                <span class="pricing__currency">$</span><span class="pricing__price">10</span>
-              </li>
-              <li class="pricing__plan-subtitle">Free for life</li>
-              <li class="pricing__plan-item">1 gb of space</li>
-              <li class="pricing__plan-item">1 gb of space</li>
-              <li class="pricing__plan-item">1 gb of space</li>
-              <li class="pricing__plan-item">1 gb of space</li>
-              <li class="pricing__plan-item">1 gb of space</li>
-              <li class="pricing__plan-item">1 gb of space</li>
-            </ul>
-            <ul class="pricing__plan">
-              <li class="pricing__plan-title">Optima</li>
-              <li class="pricing__plan-price">
-                <span class="pricing__currency">$</span><span class="pricing__price">20</span>
-              </li>
-              <li class="pricing__plan-subtitle pricing__plan-subtitle_highlighted">Free for life</li>
-              <li class="pricing__plan-item">1 gb of space</li>
-              <li class="pricing__plan-item">1 gb of space</li>
-              <li class="pricing__plan-item">1 gb of space</li>
-              <li class="pricing__plan-item">1 gb of space</li>
-              <li class="pricing__plan-item">1 gb of space</li>
-              <li class="pricing__plan-item">1 gb of space</li>
-            </ul>
-            <ul class="pricing__plan">
-              <li class="pricing__plan-title">Pro</li>
-              <li class="pricing__plan-price">
-                <span class="pricing__currency">$</span><span class="pricing__price">30</span>
-              </li>
-              <li class="pricing__plan-subtitle">Free for life</li>
-              <li class="pricing__plan-item">1 gb of space</li>
-              <li class="pricing__plan-item">1 gb of space</li>
-              <li class="pricing__plan-item">1 gb of space</li>
-              <li class="pricing__plan-item">1 gb of space</li>
-              <li class="pricing__plan-item">1 gb of space</li>
-              <li class="pricing__plan-item">1 gb of space</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <section class="customers">
-        <div class="container">
-          <h2 class="customers__title title">what our customers are saying</h2>
-          <h3 class="customers__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
-          <div class="customers__cards-container">
-            <div class="customers__card">
-              <p class="customers__card-testimonial">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aut molestias odit reprehenderit.
-                Aliquam, earum quo! Corporis autem iste tenetur consequatur atque odio, dolorum vitae quod deleniti
-                illum praesentium blanditiis.
-              </p>
-              <div class="customers__card-customerinfo">
-                <img src="img/photos/jeremy_h.png" alt="Jeremy H. photo" class="customers__card-photo" />
-                <div class="customers__card-credentials">
-                  <h4 class="customers__card-name">Jeremy H.</h4>
-                  <h5 class="customers__card-position">Manager</h5>
-                </div>
-              </div>
-            </div>
-            <div class="customers__card">
-              <p class="customers__card-testimonial">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat
-                similique odio aspernatur ex, architecto eaque quo suscipit.
-              </p>
-              <div class="customers__card-customerinfo">
-                <img src="img/photos/jeremy_h.png" alt="Jeremy H. photo" class="customers__card-photo" />
-                <div class="customers__card-credentials">
-                  <h4 class="customers__card-name">Jeremy H.</h4>
-                  <h5 class="customers__card-position">Manager</h5>
-                </div>
-              </div>
-            </div>
-            <div class="customers__card">
-              <p class="customers__card-testimonial">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, velit.
-              </p>
-              <div class="customers__card-customerinfo">
-                <img src="img/photos/jeremy_h.png" alt="Jeremy H. photo" class="customers__card-photo" />
-                <div class="customers__card-credentials">
-                  <h4 class="customers__card-name">Jeremy H.</h4>
-                  <h5 class="customers__card-position">Manager</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="axure">
-        <div class="container axure__container">
-          <h2 class="axure__title title">Stylish Axure design</h2>
-          <h3 class="axure__subtitle">
-            Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than ever!
-          </h3>
-          <a href="#" class="button button_color_transparent axure__button">Download</a>
-        </div>
-      </section>
-      <section class="contact">
-        <div class="container">
-          <h2 class="contact__title title">Contact us</h2>
-          <h3 class="contact__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-          <form action="#" method="POST" class="contact-form">
-            <div class="contact-form__container">
-              <div class="contact-form__block">
-                <label for="contact.form.name" class="contact-form__label">Name</label>
-                <input type="text" id="contact.form.name" class="contact-form__input" />
-                <label for="contact.form.email" class="contact-form__label">Email</label>
-                <input type="email" id="contact.form.email" class="contact-form__input" />
-                <label for="contact.form.password" class="contact-form__label">Password</label>
-                <input type="password" id="contact.form.password" class="contact-form__input" />
-              </div>
-              <div class="contact-form__block">
-                <label for="contact.form.message" class="contact-form__label">Message</label>
-                <textarea id="contact.form.message" class="contact-form__input contact-form__input_growing"></textarea>
-              </div>
-            </div>
-            <button class="button button_color_pink contact-form__button" type="submit">Send message</button>
-          </form>
-        </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <ul class="footer-social">
-        <li class="footer-social__item"><a href="#" class="footer-social__icon fab fa-facebook-f"></a></li>
-        <li class="footer-social__item"><a href="#" class="footer-social__icon fab fa-twitter"></a></li>
-        <li class="footer-social__item"><a href="#" class="footer-social__icon fab fa-google-plus-g"></a></li>
-        <li class="footer-social__item"><a href="#" class="footer-social__icon fab fa-pinterest"></a></li>
-        <li class="footer-social__item"><a href="#" class="footer-social__icon fab fa-instagram"></a></li>
-        <li class="footer-social__item"><a href="#" class="footer-social__icon fab fa-stumbleupon"></a></li>
-        <li class="footer-social__item"><a href="#" class="footer-social__icon fas fa-rss"></a></li>
-      </ul>
-      <p class="footer-copyright">&copy; 2015 Axure Themes</p>
-    </footer>
+        <p class="footer-copyright">&copy; 2015 Axure Themes</p>
+      </footer>
+    </div>
   </body>
 </html>
