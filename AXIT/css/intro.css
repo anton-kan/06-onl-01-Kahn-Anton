@@ -33,8 +33,10 @@
 }
 
 .intro__text {
+  flex: 1 1 290px;
+  max-width: 544px;
+
   margin: 109px 22px 101px 0;
-  width: 544px;
 }
 
 .intro-logo {
@@ -80,9 +82,11 @@
 }
 
 .intro-form {
+  flex: 1 1 290px;
+  max-width: 370px;
+
   background: #ffffff;
   border-radius: 8px;
-  width: 370px;
   overflow: hidden;
 
   margin: 110px 0 120px 22px;
@@ -142,4 +146,18 @@
 .intro-form__button {
   width: 100%;
   padding: 16px 0 17px 0;
+}
+
+@media (max-width: 653px) {
+  .intro-container {
+    justify-content: center;
+  }
+
+  .intro__text {
+    margin: 20px 0;
+  }
+
+  .intro-form {
+    margin: 20px 0;
+  }
 }

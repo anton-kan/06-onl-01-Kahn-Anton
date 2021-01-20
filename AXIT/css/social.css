@@ -3,14 +3,15 @@
 }
 .social-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
 .social-description {
-  width: 365px;
-
-  flex-shrink: 1000000;
+  flex: 1 1 120px;
+  max-width: 365px;
 }
+
 .social-description__title {
   font-family: 'Open Sans';
   font-style: normal;
@@ -34,10 +35,7 @@
   color: #86878b;
 }
 .social-icons {
-  flex-shrink: 1;
-
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   margin: 15px -15px 18px -15px;
   font-size: 42px;
@@ -79,4 +77,20 @@
 }
 .fa-rss:hover {
   color: #f26522;
+}
+
+@media (max-width: 606px) {
+  .social-container {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 485px) {
+  .social-icons {
+    font-size: 8vw;
+  }
+
+  .social-icons__item {
+    margin: 0 3vw;
+  }
 }
