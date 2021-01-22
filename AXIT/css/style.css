@@ -92,7 +92,6 @@ textarea {
 .button_color_transparent {
   border: 1px solid #ffffff;
   padding: 11px 26px;
-  width: 135px;
 }
 
 .button_color_transparent:hover {

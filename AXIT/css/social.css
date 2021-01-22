@@ -8,8 +8,9 @@
   align-items: center;
 }
 .social-description {
-  flex: 1 1 120px;
+  flex: 1 1 277px;
   max-width: 365px;
+  margin-right: 15px;
 }
 
 .social-description__title {
@@ -79,7 +80,7 @@
   color: #f26522;
 }
 
-@media (max-width: 606px) {
+@media (max-width: 778px) {
   .social-container {
     justify-content: center;
   }

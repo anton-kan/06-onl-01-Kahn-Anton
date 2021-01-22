@@ -82,13 +82,13 @@
   padding: 11px;
 }
 
-.features__image-container {
+@media (max-width: 1155px) {
+  .features__tabs {
+    margin-right: 50px;
+  }
 }
 
-.features__image {
-}
-
-@media (max-width: 765px) {
+@media (max-width: 908px) {
   .features-container {
     flex-direction: column;
     margin: 0;
@@ -116,6 +116,11 @@
 
   .features__image-container {
     text-align: center;
+  }
+
+  .features_button {
+    width: 100%;
+    max-width: 350px;
   }
 }
 

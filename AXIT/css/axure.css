@@ -46,5 +46,13 @@
 }
 
 .axure__button {
+  width: 135px;
   margin: 57px auto 23px auto;
+}
+
+@media (max-width: 765px) {
+  .axure__button {
+    width: 100%;
+    max-width: 350px;
+  }
 }
