@@ -33,6 +33,14 @@ textarea {
   outline: none;
 }
 
+button:focus {
+  outline: none;
+}
+
+button:focus-visible {
+  outline: black auto 1px;
+}
+
 .wrapper {
   min-height: 100vh;
 }
